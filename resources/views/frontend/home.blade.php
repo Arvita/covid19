@@ -12,7 +12,7 @@
 							<img src="{{ asset('public/frontend/images/sliders/slidebg1.png')}}"  style="background-color:rgb(246, 246, 246)" alt="slidebg1"  data-bgfit="cover" data-bgposition="left bottom" data-bgrepeat="no-repeat">
 							<div class="caption lft slide_title slide_item_left"
 							data-x="0"
-							data-y="105"
+							data-y="55"
 							data-speed="400"
 							data-start="1500"
 							data-easing="easeOutExpo">
@@ -20,25 +20,25 @@
 							</div>
 							<div class="caption lft slide_subtitle slide_item_left"
 							data-x="0"
-							data-y="180"
+							data-y="130"
 							data-speed="400"
 							data-start="2000"
 							data-easing="easeOutExpo">
-								COVID-19
+								COVID-19 Jember
 							</div>
 							<div class="caption lft slide_desc slide_item_left"
 							data-x="0"
-							data-y="220"
+							data-y="170"
 							data-speed="400"
 							data-start="2500"
 							data-easing="easeOutExpo">
-								Saat ini dengan mulai munculnya ODP, PDP dan kasus Positif COVID-19 di Jawa Timur,
+								Saat ini dengan mulai munculnya ODP, PDP dan kasus Positif COVID-19 di JEMBER,
 								<br>
 								 tentunya self-assesment COVID-19 akan dibutuhkan oleh masyarakat.
 							</div>
 							<a class="caption lft btn btn-primary slide_btn slide_item_left" href="{{ url('test')}}"
 							data-x="0"
-							data-y="320"
+							data-y="230"
 							data-speed="400"
 							data-start="3000"
 							data-easing="easeOutExpo">
@@ -52,12 +52,51 @@
 							data-easing="easeOutExpo"  >
 								<img src="{{ asset('public/frontend/images/covid19.png')}}" width="450px" alt="Image 1">
 							</div>
+							<div class="caption lft slide_desc slide_item_left"
+							data-x="0"
+							data-y="220"
+							data-speed="400"
+							data-start="3500"
+							data-easing="easeOutExpo">
+								<div class="icon-box animate">
+									<h3 class="icon-box-title">Positif</h3>
+									<div class="icon-box-content">
+										<h1>{{$dt[4]}}</h1>
+									</div>
+								</div>
+							</div>
+							<div class="caption lft slide_desc slide_item_left"
+							data-x="120"
+							data-y="220"
+							data-speed="400"
+							data-start="3500"
+							data-easing="easeOutExpo">
+								<div class="icon-box animate ">
+									<h3 class="icon-box-title">PDP</h3>
+									<div class="icon-box-content">
+										<h1>{{$dt[5]}}</h1>
+									</div>
+								</div>
+							</div>
+							<div class="caption lft slide_desc slide_item_left"
+							data-x="220"
+							data-y="220"
+							data-speed="400"
+							data-start="3500"
+							data-easing="easeOutExpo">
+								<div class="icon-box animate ">
+									<h3 class="icon-box-title">ODP</h3>
+									<div class="icon-box-content">
+										<h1>{{$dt[6]}}</h1>
+									</div>
+								</div>
+							</div>
 						</li>
 						<!-- end: FIRST SLIDE -->
 					</ul>
 				</div>
 			</section>
-						<section class="wrapper wrapper-grey padding50">
+			<section class="wrapper wrapper-grey padding50">
 				<!-- start: CORE BOXES CONTAINER -->
 				<div class="container">
 					<div class="row">
@@ -100,23 +139,15 @@
 							<h2 style="text-align: right;">About Covid-19</h2>
 							<hr class="fade-left">
 							<p style="text-align: right;">
-								Penyakit coronavirus <strong>(COVID-19)</strong> adalah penyakit menular yang disebabkan oleh virus baru yang belum teridentifikasi sebelumnya pada manusia.
-								Virus ini menyebabkan penyakit saluran pernapasan (seperti flu) dengan gejala seperti batuk, demam, dan
-								pada kasus yang lebih parah, pneumonia. Anda dapat melindungi diri Anda dengan mencuci tangan secara
-								rutin dan menghindari menyentuh wajah Anda.
+								Coronavirus-19 (COVID) telah dinyatakan sebagai pandemi dunia oleh WHO (WHO,2020). Coronavirus adalah zoonosis atau virus yang ditularkan antara hewan dan manusia. Virus dan penyakit ini diketahui berawal di kota Wuhan, Cina sejak Desember 2019. Per tanggal 21 Maret 2020, jumlah kasus penyakit ini mencapai angka 275,469 jiwa yang tersebar di 166 negara, termasuk Indonesia.
 							</p>
-							<h5 style="text-align: right;">CARA PENYEBARAN</h5>
 							<p style="text-align: right;">
-								Penyebaran utama coronavirus baru ini adalah melalui kontak dengan orang yang terinfeksi saat mereka batuk atau bersin, atau melalui tetesan air liur atau cairan hidung.
-								Penyakit coronavirus <strong>(COVID-19)</strong> memiliki ciri-ciri berupa gejala ringan seperti
-								pilek, sakit tenggorokan, batuk, dan demam. Penyakit ini dapat memiliki gejala
-								yang lebih parah bagi sebagian orang dan dapat menyebabkan pneumonia atau
-								sesak napas.
-								Dalam kasus yang lebih langka, penyakit ini dapat menyebabkan kematian.
-								Orang-orang berusia lanjut, dan orang-orang yang memiliki gangguan medis
-								lainnya (seperti asma, diabetes, atau penyakit jantung), lebih rentan untuk
-								mengalami gejala yang parah.
+								Presiden Republik Indonesia telah menyatakan status penyakit ini menjadi tahap Tanggap Darurat pada tanggal 17 Maret 2020. Presiden juga telah mengeluarkan Keputusan Presiden No. 7 Tahun 2020 tentang Gugus Tugas Percepatan Penanganan Corona yang diketuai oleh Kepala Badan Nasional Penanggulangan Bencana (BNPB). Gugus Tugas ini bertujuan untuk meningkatkan ketahanan nasional di bidang kesehatan; mempercepat penanganan <strong>COVID-19</strong> melalui sinergi antar kementerian/ lembaga dan pemerintah daerah; meningkatkan antisipasi perkembangan eskalasi penyebaran <strong>COVID-19</strong>; meningkatkan sinergi pengambilan kebijakan operasional; dan meningkatkan kesiapan dan kemampuan dalam mencegah, mendeteksi, dan merespons terhadap <strong>COVID-19</strong>. 
 							</p>
+							<h4 style="text-align: right;">Pedoman Alur Penanganan Cepat COVID-19 di Indonesia untuk Masyarakat</h4>
+							<img src="{{ asset('public/frontend/images/otg.png')}}" width="50%" height="50%">
+							<img src="{{ asset('public/frontend/images/odp.png')}}" width="50%" height="50%" align="right">
+							<img src="{{ asset('public/frontend/images/pdp.png')}}" width="100%" height="70%">
 							<hr class="fade-left">
 							<!-- <a href="#" class="btn btn-default pull-right"><i class="fa fa-info"></i> Learn more...</a> -->
 						</div>
@@ -126,10 +157,11 @@
 									<div class="timeline animate" data-animation-options='{"animation":"scaleToBottom", "duration":"300"}'></div>
 									<i class="clip-seven-segment-1 circle-icon circle-teal animate" data-animation-options='{"animation":"flipInY", "duration":"600"}'></i>
 									<div class="icon-list-content">
-										<h4>ODR (Orang Dalam Resiko)</h4>
-										<p>
-											Orang Dalam Resiko
-										</p>
+										<h4>OTG (Orang Tanpa Gejala)</h4>
+										<ul>
+											<li>Orang yang tidak bergejala dan memiliki risiko tertular dari orang positif COVID-19</li>
+											<li>Orang tanpa gejala merupakan kontak erat dengan kasus positif <strong>COVID-19</strong></li>
+										</ul>
 									</div>
 								</li>
 								<li>
@@ -137,9 +169,10 @@
 									<i class="clip-seven-segment-2 circle-icon circle-green animate" data-animation-options='{"animation":"flipInY", "duration":"600"}'></i>
 									<div class="icon-list-content">
 										<h4>ODP (Orang Dalam Pantauan)</h4>
-										<p>
-											Status ODP biasanya diberikan kepada orang dengan kondisi masih sehat, namun dalam riwayat perjalanannya pernah ke daerah penularan virus atau yang ada penderita corona. Bahkan, pernah berhubungan dengan pasien positif corona.
-										</p>
+										<ul>
+											<li>Orang yang mengalami demam (≥38°C) atau riwayat demam; atau gejala gangguan sistem pernapasan seperti pilek/sakit tenggorokan/batuk DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat perjalanan atau tinggal di negara/wilayah yang melaporkan transmisi lokal</li>
+											<li>Orang yang mengalami gejala gangguan sistem pernapasan seperti pilek/sakit tenggorokan/batuk DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat kontak dengan kasus konfirmasi atau probabel <strong>COVID-19</strong>.</li>
+										</ul>
 									</div>
 								</li>
 								<li>
@@ -147,9 +180,11 @@
 									<i class="clip-seven-segment-3 circle-icon circle-bricky animate" data-animation-options='{"animation":"flipInY", "duration":"600"}'></i>
 									<div class="icon-list-content">
 										<h4>PDP (Pasien Dalam Pengawasan)</h4>
-										<p>
-											PDP adalah orang yang pernah berkunjung ke wilayah/ daerah atau tinggal di suatu wilayah yang diketahui merupakan daerah penularan virus corona. Lalu, sepulangnya, mereka merasakan ada gejala panas badan dan gangguan saluran pernapasan ringan atau berat. PDP juga memiliki indikasi atau diketahui pernah kontak langsung dengan orang yang terindikasi positif corona.
-										</p>
+										<ul>
+											<li>Orang dengan Infeksi Saluran Pernapasan Akut (ISPA) yaitu demam (≥38°C) atau riwayat demam; disertai salah satu gejala/tanda penyakit pernapasan seperti: batuk/sesak nafas/sakit tenggorokan/pilek/pneumonia ringan hingga berat DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat perjalanan atau tinggal di negara/wilayah yang melaporkan transmisi lokal.</li>
+											<li>Orang dengan demam (≥38°C) atau riwayat demam atau ISPA DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat kontak dengan kasus konfirmasi atau probabel <strong>COVID-19</strong></li>
+											<li>Orang dengan ISPA berat/pneumonia berat*** yang membutuhkan perawatan di rumah sakit DAN tidak ada penyebab lain berdasarkan gambaran klinis yang meyakinkan.</li>
+										</ul>
 									</div>
 								</li>
 							</ul>
