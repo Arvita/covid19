@@ -138,13 +138,13 @@
 						<div class="col-sm-6">
 							<h2 style="text-align: right;">About Covid-19</h2>
 							<hr class="fade-left">
-							<p style="text-align: right;">
+							<p style="text-align: justify;">
 								Coronavirus-19 (COVID) telah dinyatakan sebagai pandemi dunia oleh WHO (WHO,2020). Coronavirus adalah zoonosis atau virus yang ditularkan antara hewan dan manusia. Virus dan penyakit ini diketahui berawal di kota Wuhan, Cina sejak Desember 2019. Per tanggal 21 Maret 2020, jumlah kasus penyakit ini mencapai angka 275,469 jiwa yang tersebar di 166 negara, termasuk Indonesia.
 							</p>
-							<p style="text-align: right;">
+							<p style="text-align: justify;">
 								Presiden Republik Indonesia telah menyatakan status penyakit ini menjadi tahap Tanggap Darurat pada tanggal 17 Maret 2020. Presiden juga telah mengeluarkan Keputusan Presiden No. 7 Tahun 2020 tentang Gugus Tugas Percepatan Penanganan Corona yang diketuai oleh Kepala Badan Nasional Penanggulangan Bencana (BNPB). Gugus Tugas ini bertujuan untuk meningkatkan ketahanan nasional di bidang kesehatan; mempercepat penanganan <strong>COVID-19</strong> melalui sinergi antar kementerian/ lembaga dan pemerintah daerah; meningkatkan antisipasi perkembangan eskalasi penyebaran <strong>COVID-19</strong>; meningkatkan sinergi pengambilan kebijakan operasional; dan meningkatkan kesiapan dan kemampuan dalam mencegah, mendeteksi, dan merespons terhadap <strong>COVID-19</strong>. 
 							</p>
-							<h4 style="text-align: right;">Pedoman Alur Penanganan Cepat COVID-19 di Indonesia untuk Masyarakat</h4>
+							<h4 style="text-align: justify;">Pedoman Alur Penanganan Cepat COVID-19 di Indonesia untuk Masyarakat</h4>
 							<img src="{{ asset('public/frontend/images/otg.png')}}" width="50%" height="50%">
 							<img src="{{ asset('public/frontend/images/odp.png')}}" width="50%" height="50%" align="right">
 							<img src="{{ asset('public/frontend/images/pdp.png')}}" width="100%" height="70%">
@@ -159,8 +159,8 @@
 									<div class="icon-list-content">
 										<h4>OTG (Orang Tanpa Gejala)</h4>
 										<ul>
-											<li>Orang yang tidak bergejala dan memiliki risiko tertular dari orang positif COVID-19</li>
-											<li>Orang tanpa gejala merupakan kontak erat dengan kasus positif <strong>COVID-19</strong></li>
+											<li><p style="text-align: justify;">Orang yang tidak bergejala dan memiliki risiko tertular dari orang positif COVID-19</p></li>
+											<li><p style="text-align: justify;">Orang tanpa gejala merupakan kontak erat dengan kasus positif <strong>COVID-19</strong></p></li>
 										</ul>
 									</div>
 								</li>
@@ -170,8 +170,8 @@
 									<div class="icon-list-content">
 										<h4>ODP (Orang Dalam Pantauan)</h4>
 										<ul>
-											<li>Orang yang mengalami demam (≥38°C) atau riwayat demam; atau gejala gangguan sistem pernapasan seperti pilek/sakit tenggorokan/batuk DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat perjalanan atau tinggal di negara/wilayah yang melaporkan transmisi lokal</li>
-											<li>Orang yang mengalami gejala gangguan sistem pernapasan seperti pilek/sakit tenggorokan/batuk DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat kontak dengan kasus konfirmasi atau probabel <strong>COVID-19</strong>.</li>
+											<li><p style="text-align: justify;">Orang yang mengalami demam (≥38°C) atau riwayat demam; atau gejala gangguan sistem pernapasan seperti pilek/sakit tenggorokan/batuk DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat perjalanan atau tinggal di negara/wilayah yang melaporkan transmisi lokal</p></li>
+											<li><p style="text-align: justify;">Orang yang mengalami gejala gangguan sistem pernapasan seperti pilek/sakit tenggorokan/batuk DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat kontak dengan kasus konfirmasi atau probabel <strong>COVID-19</strong>.</p></li>
 										</ul>
 									</div>
 								</li>
@@ -181,11 +181,13 @@
 									<div class="icon-list-content">
 										<h4>PDP (Pasien Dalam Pengawasan)</h4>
 										<ul>
-											<li>Orang dengan Infeksi Saluran Pernapasan Akut (ISPA) yaitu demam (≥38°C) atau riwayat demam; disertai salah satu gejala/tanda penyakit pernapasan seperti: batuk/sesak nafas/sakit tenggorokan/pilek/pneumonia ringan hingga berat DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat perjalanan atau tinggal di negara/wilayah yang melaporkan transmisi lokal.</li>
-											<li>Orang dengan demam (≥38°C) atau riwayat demam atau ISPA DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat kontak dengan kasus konfirmasi atau probabel <strong>COVID-19</strong></li>
-											<li>Orang dengan ISPA berat/pneumonia berat*** yang membutuhkan perawatan di rumah sakit DAN tidak ada penyebab lain berdasarkan gambaran klinis yang meyakinkan.</li>
+											<li><p style="text-align: justify;">Orang dengan Infeksi Saluran Pernapasan Akut (ISPA) yaitu demam (≥38°C) atau riwayat demam; disertai salah satu gejala/tanda penyakit pernapasan seperti: batuk/sesak nafas/sakit tenggorokan/pilek/pneumonia ringan hingga berat DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat perjalanan atau tinggal di negara/wilayah yang melaporkan transmisi lokal.</p></li>
+											<li><p style="text-align: justify;">Orang dengan demam (≥38°C) atau riwayat demam atau ISPA DAN pada 14 hari terakhir sebelum timbul gejala memiliki riwayat kontak dengan kasus konfirmasi atau probabel <strong>COVID-19</strong></p></li>
+											<li><p style="text-align: justify;">Orang dengan ISPA berat/pneumonia berat*** yang membutuhkan perawatan di rumah sakit DAN tidak ada penyebab lain berdasarkan gambaran klinis yang meyakinkan.</p></li>
 										</ul>
 									</div>
+									Sumber : <br>
+									Pedoman Penangan Cepat Medis dan Kesehatan Masyarakat COVID-19 di Indonesia.
 								</li>
 							</ul>
 						</div>

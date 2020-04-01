@@ -44,7 +44,7 @@ div.warning {
 						<!-- <form action="POST"> -->
 						<!-- S1 -->
 						<div class="col-sm-12 card" id="question1">
-							<strong>Perna kontak dengan pasien positif COVID-19 (berada dalam satu ruangan yang sama/kontak dalam jarak 1 meter) Atau pernah berkunjung ke negara/daerah endemis COVID-19 dalam 14 hari terakhir?</strong>
+							<strong>Perna kontak dengan pasien positif COVID-19 (berada dalam satu ruangan yang sama/kontak dalam jarak 1 meter) Atau perna berkunjung ke negara/daerah endemis COVID-19 dalam 14 hari terakhir?</strong>
 							<br><br>
 							<br><br>
 							<button id="ya" name="ya" class="btn btn-primary" onclick="setVisibility('question1', 'none','question11', 'inline');";>Ya</button>

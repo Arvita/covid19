@@ -35,8 +35,15 @@ class HomeController extends Controller
 		$crawlerJember->filter('h1')->each(function ($node) {
 			array_push($this->dataJember, $node->text());
 		});
-		foreach ($this->dataJember as $key) {
+		if (count($this->dataJember)==0) {
+			array_push($dt, 0);
+			array_push($dt, 0);
+			array_push($dt, 0);
+			array_push($dt, 0);
+		} else {
+			foreach ($this->dataJember as $key) {
 			array_push($dt,$key);
+			}
 		}
         return view('frontend/home',compact('home','dt'));
     }
